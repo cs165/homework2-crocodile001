@@ -1,1 +1,70 @@
 /* TODO(you): Write the CSS to finish the assignment! */
+
+.choice-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.choice-grid div {
+	padding: 10px;
+	width: calc(32.5% - 22px);
+}
+
+.choice-grid div img {
+  width: 100%;
+  display: block;
+}
+
+section div {
+	margin-bottom: 20px;
+	background-color: #f4f4f4;
+	border: 1px solid #dcdcdc;
+}
+
+@media (max-width: 700px) {
+	header div {
+		display: none;
+	}
+	article {
+		width: 95%;
+	}
+}
+
+@media (max-width: 500px) {
+	.choice-grid div {
+		width: calc(49% - 22px);
+	}
+}
+
+.divspace {
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #dcdcdc;
+}
+
+.h1space{
+	margin-top: 0px;
+	font-size: 27px;
+}
+
+.pspace{
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+.btn {
+	background-color: #cecece;
+	width : 100%;
+	height: 50px;
+	padding: 0px;
+	border: 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.btn:hover {
+	background-color: #e0e0e0; 
+}
